@@ -1,0 +1,9 @@
+name: Call a reusable workflow
+
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  call-workflow:
+    uses: another-coinhako/.github/lint.yml@main
