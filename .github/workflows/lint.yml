@@ -6,4 +6,4 @@ on:
       - main
 jobs:
   call-workflow:
-    uses: another-coinhako/.github/lint.yml@main
+    uses: another-coinhako/.github/.github/workflows/lint.yml@main
