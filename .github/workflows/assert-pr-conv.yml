@@ -1,0 +1,10 @@
+name: Assert PR conventions
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  # https://www.notion.so/coinhako/Branch-s-name-convention-3f6b7f67f7cf462babc72736901f1d02
+  branch-naming-conventions:
+    uses: another-coinhako/.github-private/workflow-templates/assert-pr-conventions.yml@main
