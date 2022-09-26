@@ -11,3 +11,4 @@ jobs:
       - uses: deepakputhraya/action-branch-name@v1.0.0
         with:
           allowed_prefixes: "feature/,fix/,performance/,chore/,ci/"
+          regex: '^([a-z]{2,})\/([a-zA-Z]{2,})-([0-9]{1,})-([a-zA-Z-0-9-]{1,}$)'
